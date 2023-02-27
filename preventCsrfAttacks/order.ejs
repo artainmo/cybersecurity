@@ -1,0 +1,24 @@
+<h2>Sweets</h2>
+
+<form  action="/submit" method="POST">
+
+  <!-- Add CSRF token here -->
+  <input type="hidden" name="_csrf" value="<%= csrfToken %>"/>
+  
+  <div class="item">
+    <label for="snickerdoodle">Snickerdoodle</label>
+    <input type="number" id="snickerdoodle" name="snickerdoodle" value="0">
+  </div>
+  <div class="item">
+    <label for="chocolatechip">Chocolate Chip</label>
+    <input type="number" id="chocolatechip" name="chocolatechip" value="0">
+  </div>
+  <div class="item">
+    <label for="parfait">Parfait</label>
+    <input type="number" id="parfait" name="parfait" value="0">
+  </div>
+  <div>
+    <input type="submit">
+  </div>
+</form>
+
