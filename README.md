@@ -1,6 +1,6 @@
 # Cybersecurity
 
-## Table of content
+## Table of contents
 - [Codecademy course - Introduction to Cybersecurity](#Codecademy-course---Introduction-to-Cybersecurity)
   - [Definition](#Definition)
   - [Subsets](#Subsets)
